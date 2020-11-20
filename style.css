@@ -1,0 +1,39 @@
+/* Styling of the page - feel free to change anything you like */
+
+body {
+  background: navy;
+  font-family: 'Strait', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.all-launches {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.launch {
+  text-align: center;
+  background-color: #FCF0EE;
+  padding: 20px;
+  margin: 20px;
+  color: navy;
+  border: 10px solid #FC3B1A;
+}
+
+.launch .details {
+  width: 300px;
+  text-align: left;
+}
+
+img {
+  max-width: 300px;
+}
