@@ -1,9 +1,8 @@
-/* Styling of the page - feel free to change anything you like */
+/* Styling! Varsågod att ändra om du vill. */
 
 body {
   background: navy;
   font-family: 'Strait', sans-serif;
-  letter-spacing: 1px;
 }
 
 h1 {
@@ -12,6 +11,21 @@ h1 {
   font-size: 50px;
   text-align: center;
   letter-spacing: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 100px;
+  height: 40px;
+  margin: 0 10px;
+  background-color: #FC3B1A;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
 }
 
 .all-launches {
